@@ -3,7 +3,7 @@ const data = [
     title: 'tis',
     subtitle: 'Pattern recognition of bitarray datastreams',
     link: 'https://github.com/theoportlock/tis.git',
-    image: '/images/projects/combination.jpg',
+    image: '/projects/combination.jpg',
     date: '2012-11-20',
     desc:
       'Looks at hypercombinations of active bits for prediction.',
