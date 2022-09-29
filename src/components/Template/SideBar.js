@@ -20,7 +20,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Theo. I am mostly interested in using computing to find patterns in nature.
-        I am a doctor of biochemistry who is currently researching systems biology at Scilifelab, Stockholm.
+        I am a doctor of biochemistry currently researching systems biology at Scilifelab, Stockholm.
       </p>
       <ul className="actions">
         <li>
