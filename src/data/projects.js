@@ -12,7 +12,7 @@ const data = [
     title: 'Workforce',
     subtitle: 'Scheduler for bash commands',
     link: 'https://pypi.org/project/workforce/',
-    image: 'images/projects/example_plan.jpg',
+    image: '/images/projects/example_plan.jpg',
     date: '2020-09-20',
     desc:
       'Uses python networkx to schedule parallel bash commands similar to nextflow or Snakemake',
