@@ -6,7 +6,7 @@ const data = [
     image: '/images/projects/combination.jpg',
     date: '2012-11-20',
     desc:
-      'Looks at hypercombinations of active bits for prediction.',
+      'Looks at hypercombinations of bitarrays for prediction.',
   },
   {
     title: 'Workforce',
@@ -15,7 +15,7 @@ const data = [
     image: '/images/projects/example_plan.jpg',
     date: '2020-09-20',
     desc:
-      'Uses python networkx to schedule parallel bash commands similar to nextflow or Snakemake',
+      'Uses python networkx and multiprocessing to run a csv edgelist of bash commands parallel',
   },
 ];
 
