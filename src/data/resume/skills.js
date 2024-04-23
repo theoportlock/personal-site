@@ -32,11 +32,16 @@ const skills = [
   {
     title: 'Data Mining',
     competency: 3,
-    category: ['Data Science'],
+    category: ['ML Engineering'],
   },
   {
     title: 'Flask',
-    competency: 2,
+    competency: 3,
+    category: ['Web Development', 'Python'],
+  },
+  {
+    title: 'FastAPI',
+    competency: 3,
     category: ['Web Development', 'Python'],
   },
   {
@@ -50,9 +55,24 @@ const skills = [
     category: ['Tools', 'Web Development'],
   },
   {
+    title: 'AWS',
+    competency: 3,
+    category: ['Tools', 'Web Development'],
+  },
+  {
+    title: 'Docker',
+    competency: 3,
+    category: ['Tools', 'Data Engineering'],
+  },
+  {
+    title: 'AWS Lambda',
+    competency: 3,
+    category: ['Tools', 'Web Development'],
+  },
+  {
     title: 'Numpy',
     competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python'],
+    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
   },
   {
     title: 'Numba',
@@ -62,7 +82,12 @@ const skills = [
   {
     title: 'Tensorflow + Keras',
     competency: 3,
-    category: ['Data Science', 'Python'],
+    category: ['ML Engineering', 'Python'],
+  },
+  {
+    title: 'PyTorch',
+    competency: 3,
+    category: ['ML Engineering', 'Python'],
   },
   {
     title: 'Pytorch',
@@ -82,7 +107,17 @@ const skills = [
   {
     title: 'Python',
     competency: 5,
-    category: ['Languages', 'Python'],
+    category: ['Languages', 'Python', 'ML Engineering'],
+  },
+  {
+    title: 'Ruby',
+    competency: 2,
+    category: ['Languages'],
+  },
+  {
+    title: 'Ruby on Rails',
+    competency: 3,
+    category: ['Web Development', 'Languages'],
   },
   {
     title: 'Sympy',
@@ -117,7 +152,7 @@ const skills = [
   {
     title: 'Pandas',
     competency: 5,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
   {
     title: 'Matplotlib',
@@ -141,7 +176,7 @@ const skills = [
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
-// this is a list of colors that I like. The length should be == to the
+// this is a list of colors that I like. The length should be === to the
 // number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
   '#6968b3',
@@ -158,12 +193,10 @@ const colors = [
 ];
 
 const categories = [
-  ...new Set(skills.reduce((acc, { category }) => acc.concat(category), [])),
-]
-  .sort()
-  .map((category, index) => ({
-    name: category,
-    color: colors[index],
-  }));
+  ...new Set(skills.flatMap(({ category }) => category)),
+].sort().map((category, index) => ({
+  name: category,
+  color: colors[index],
+}));
 
 export { categories, skills };
