@@ -12,15 +12,16 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Theo Portlock</h2>
+        <h2>Portlock Lab</h2>
         <p><a href="mailto:zn.tportlock@gmail.com">zn.tportlock@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Theo. I am mostly interested in using computing to find patterns in nature.
-        I am a doctor of biochemistry researching systems biology at Scilifelab, Stockholm.
+      <p>Our lab is mostly interested in using computing
+        to find patterns in nature. We are based at
+        The Liggins Institute, University of Auckland, New Zealand.
       </p>
       <ul className="actions">
         <li>
