@@ -27,7 +27,7 @@ const data = [
   {
     key: 'location',
     label: 'Current city',
-    value: 'Stockholm, Sweden',
+    value: 'Auckland, New Zealand',
   },
 ];
 
