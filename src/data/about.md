@@ -1,13 +1,4 @@
+# Introduction
 
-# Intro
+Our lab specialises in Systems Biology with a specialisation in metagenomics. Our current work focusses on using interpretable machine learning methodologies to understand the human oral and gut microbiome. We believe that the zero-inflated sparsity of species abundance data from metagenomics shotgun sequencing adequately resembles the neural arrangement of axons in the brain and is an ideal test-case for the training of novel machine learning methodologies. We am very interested in collaborating with people who are experts in pattern recognition of this sort and so please reach out if you are interested.
 
-I am a systems biologist with a specialisation in the analylsis of metagenomics datasets. My background is in structural biology, specifically characterising the structure of proteins using a technique called NMR spectroscopy.
-
-# I like
-
-- Running
-- Badminton
-- Pickleball (google it)
-- Pigeons (usually)
-- Philosophy
-- Magic the Gathering
