@@ -25,10 +25,10 @@ jobs:
         npm run build
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v3
       with:
         name: github-pages
-        path: build/  # Update if your build output is in a different folder
+        path: build/  # Update if your build output is different
 
   deploy:
     needs: build
@@ -36,10 +36,12 @@ jobs:
     permissions:
       pages: write
       id-token: write
+    environment:
+      name: github-pages  # This is required for Pages deployment
 
     steps:
     - name: Download artifact
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v3
       with:
         name: github-pages
         path: .
