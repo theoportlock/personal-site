@@ -20,26 +20,26 @@
 
 // Font.
 	$font: (
-		family:						('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:				('Courier New', monospace),
-		family-heading:				('Raleway', Helvetica, sans-serif),
+		family:						('JetBrains Mono', 'Fira Code', 'Consolas', monospace),
+		family-fixed:				('JetBrains Mono', 'Fira Code', 'Consolas', monospace),
+		family-heading:				('JetBrains Mono', 'Fira Code', 'Consolas', monospace),
 		weight:						400,
-		weight-bold:				700,
-		weight-heading:				400,
-		weight-heading-bold:		800,
-		weight-heading-extrabold:	900,
-		kerning-heading:			0.25em
+		weight-bold:				600,
+		weight-heading:				600,
+		weight-heading-bold:		700,
+		weight-heading-extrabold:	700,
+		kerning-heading:			0
 	);
 
-// Palette.
+	// Palette.
 	$palette: (
-		bg:							#ffffff,
-		bg-alt:						#f4f4f4,
-		fg:							#646464,
-		fg-bold:					#3c3b3b,
-		fg-light:					#aaaaaa,
-		border:						rgba(160,160,160,0.3),
-		border-bg:					rgba(160,160,160,0.075),
-		border-alt:					rgba(160,160,160,0.65),
-		accent:						#2e59ba
+		bg:							#1e1e1e,
+		bg-alt:						#252526,
+		fg:							#d4d4d4,
+		fg-bold:					#e0e0e0,
+		fg-light:					#858585,
+		border:						#3c3c3c,
+		border-bg:					#2d2d2d,
+		border-alt:					#4a4a4a,
+		accent:						#569cd6
 	);
