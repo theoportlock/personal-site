@@ -17,12 +17,11 @@ const Index = () => (
           </p>
         </div>
       </header>
-      <p> Welcome to the Portlock lab website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+      <p>
+        Welcome to the Portlock Lab website. Please feel free to read more{' '}
+        <Link to="/about">about us</Link>, or you can check out our{' '}
+        <Link to="/projects">projects</Link>. Feel free to{' '}
+        <Link to="/contact">contact us</Link>.
       </p>
       <p> Source available <a href="https://github.com/theoportlock/personal-site">here</a>.</p>
     </article>
